@@ -1,0 +1,845 @@
+repo_name: huhuhuHR/fastjson2
+report_id: d4004fe8ad2c4224fccd70b46e7537d3
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:32:01+00:00'
+requested_by: wenshao
+provider: github
+branch: main
+detected_tools_count: 68
+tools:
+- name: Clojure
+  description: A dynamic programming language that targets the Java Virtual Machine
+  website_url: http://clojure.org/
+  version: 1.5.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1003/Clojure_300x300.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: Jerry Lee
+  last_updated_on: 2022-04-22 16:32:57.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-23 05:48:14.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: Spring Data
+  description: Provides a consistent approach to data access – relational, non-relational,
+    map-reduce, and beyond
+  website_url: https://spring.io/projects/spring-data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: Jerry Lee
+  last_updated_on: 2022-04-22 16:32:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/.github/workflows/ci.yaml
+  detection_source: ".github/workflows/ci.yaml"
+  last_updated_by: Jerry Lee
+  last_updated_on: 2022-05-21 12:50:33.000000000 Z
+- name: GlassFish
+  description: The Open Source Java EE Reference Implementation
+  website_url: https://glassfish.java.net
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2
+  detection_source: Repo Metadata
+- name: org.clojure:clojure
+  description: Clojure core environment and runtime library
+  version: 1.5.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+  vulnerabilities:
+  - name: Clojure classes can be used to craft a serialized object that runs arbitrary
+      code on deserialization
+    cve_id: CVE-2017-20189
+    cve_url: https://github.com/advisories/GHSA-jgxc-8mwq-9xqw
+    detected_date: Jan 23
+    severity: critical
+    first_patched: 1.9.0
+- name: cglib:cglib-nodep
+  description: Cglib is a powerful
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.caucho:hessian
+  description: Hessian is a compact binary protocol for connecting web services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+  description: Functionality to handle JSON input/output for JAX-RS implementations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-afterburner
+  description: Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-kotlin
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-23 05:48:14.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-23 05:48:14.000000000 Z
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.google.protobuf:protobuf-java-util
+  description: Protocol Buffers are a way of encoding structured data in an efficient
+    yet extensible format
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: com.squareup.retrofit2:retrofit
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:55:37.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: Jerry Lee
+  last_updated_on: 2022-05-19 18:36:23.000000000 Z
+- name: io.springfox:springfox-spring-web
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-23 05:48:14.000000000 Z
+- name: net.minidev:json-smart
+  description: JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: net.sf.json-lib:json-lib
+  description: Java library for transforming beans
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-23 05:48:14.000000000 Z
+- name: net.sf.trove4j:trove4j
+  description: The Trove library provides high speed regular and primitive collections
+    for Java
+  license: LGPL-2.1-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-23 05:48:14.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 18:45:46.000000000 Z
+- name: org.codehaus.groovy:groovy
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  version: 2.4.21
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.glassfish.jersey.containers:jersey-container-servlet
+  description: Jersey core Servlet 3.x implementation
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.glassfish.jersey.core:jersey-client
+  description: Jersey core client implementation
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.glassfish.jersey.core:jersey-common
+  description: Jersey core common packages
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.glassfish.jersey.media:jersey-media-json-jackson
+  description: Jersey JSON Jackson entity providers support module
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.hamcrest:hamcrest
+  description: Core API and libraries of hamcrest matcher framework
+  version: '2.2'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-22 03:40:48.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.javamoney:moneta
+  description: JSR 354 provides an API for representing, transporting, and performing
+    comprehensive calculations with Money and Currency
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 18:45:46.000000000 Z
+- name: org.javassist:javassist
+  description: Javassist
+  license: LGPL-2.1,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/kotlin/pom.xml
+  detection_source: kotlin/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 06:44:33.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-22 03:40:48.000000000 Z
+- name: org.mockito:mockito-all
+  description: Mock objects library for java
+  version: 1.10.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-22 03:40:48.000000000 Z
+- name: org.msgpack:msgpack-core
+  description: Core library of the MessagePack for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 18:45:46.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: 业余布道师
+  last_updated_on: 2022-05-21 06:02:47.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/benchmark/pom.xml
+  detection_source: benchmark/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-22 03:40:48.000000000 Z
+- name: org.springframework.data:spring-data-mongodb
+  description: MongoDB support for Spring Data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: org.springframework.data:spring-data-redis
+  description: Global parent pom.xml to be used by Spring Data modules
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: org.springframework.security:spring-security-web
+  description: Spring-security-web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/fastjson1-compatible/pom.xml
+  detection_source: fastjson1-compatible/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-21 19:00:10.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/core/pom.xml
+  detection_source: core/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 18:45:46.000000000 Z
+- name: org.springframework:spring-messaging
+  description: Spring Messaging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:55:37.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
+- name: org.springframework:spring-websocket
+  description: Spring WebSocket
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/fastjson2/blob/main/extension/pom.xml
+  detection_source: extension/pom.xml
+  last_updated_by: shaojin.wensj
+  last_updated_on: 2022-05-25 14:54:57.000000000 Z
